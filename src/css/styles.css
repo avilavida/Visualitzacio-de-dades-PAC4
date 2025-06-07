@@ -12,6 +12,36 @@ body {
   color: #000078;
 }
 
+.visualization-wrapper {
+  display: grid;
+  grid-template-columns: minmax(300px, 2fr) 8fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  height: 700px;
+}
+
+.visualization-wrapper > .info-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 400px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 #container {
   position: relative;
   width: 100%;
@@ -32,7 +62,7 @@ body {
   pointer-events: none;
 }
 
-/* Z-index per capes */
+
 #decoration { z-index: 1; }
 #data { z-index: 2; }
 #elements { z-index: 4; }
@@ -42,26 +72,24 @@ body {
   display: flex;
   gap: 2rem;
   justify-content: center;
-  align-items: flex-start; /* perquè les etiquetes estiguin a sobre i no alineïn pel mig verticalment */
-  flex-wrap: wrap; /* perquè si la pantalla és petita es puguin trencar files */
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .control-group {
   display: flex;
   flex-direction: column;
-  align-items: center; /* centra horitzontalment text i control */
-  gap: 0.5rem; /* espai entre l’etiqueta i el control */
-  min-width: 120px; /* opcional, per que no es facin massa estrets */
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 120px;
 }
 
-/* Centrar i estilitzar les etiquetes */
 .control-group > label {
   text-align: center;
   font-weight: 600;
-  user-select: none; /* evita que s’hi seleccioni el text accidentalment */
+  user-select: none;
 }
 
-/* Estil del switch container */
 .switch {
   position: relative;
   display: inline-block;
@@ -69,14 +97,12 @@ body {
   height: 26px;
 }
 
-/* Amaga la checkbox original */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* Slider visible */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -86,7 +112,6 @@ body {
   border-radius: 26px;
 }
 
-/* Cercle que llisca */
 .slider:before {
   position: absolute;
   content: "";
@@ -99,7 +124,6 @@ body {
   border-radius: 50%;
 }
 
-/* Quan està checkejat, canvi de color del fons i desplaçament del cercle */
 .switch input:checked + .slider {
   background-color: #2196F3;
 }
@@ -108,12 +132,10 @@ body {
   transform: translateX(24px);
 }
 
-/* Opcional: efecte hover */
 .switch:hover .slider {
   background-color: #b3d7ff;
 }
 
-/* Container iamges */
 #container {
   position: relative;
   width: 100%;
@@ -134,7 +156,6 @@ body {
   pointer-events: none;
 }
 
-/* Amagar el toggle */
 .hidden {
   display: none !important;
 }
