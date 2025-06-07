@@ -12,7 +12,7 @@ Aquest projecte explora la relació entre els gèneres musicals i les emocions q
 
 ## Visualització
 La visualització creada està disponible en el següent enllaç:
-[Music Genres: How Music Genres Move Us](https://avilavida.github.io/Visualitzacio-de-dades-PAC4/)
+[Music Genres: How Music Genres Move Us](https://avilavida.github.io/Visualitzacio-de-dades-Projecte/)
 
 ## Dataset
 
