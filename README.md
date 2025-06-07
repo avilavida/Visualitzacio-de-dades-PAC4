@@ -1,4 +1,4 @@
-# Visualitzacio-de-dades-PAC4
+# Projecte de visualització de dades
 
 *Universitat Oberta de Catalunya (UOC)*  
 
