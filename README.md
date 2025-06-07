@@ -8,6 +8,10 @@
 
 Aquest projecte explora la relació entre els gèneres musicals i les emocions que transmeten les cançons a partir de dues variables principals: **valence** i **energy**. A partir d’un conjunt de dades de Spotify, es visualitza com ha evolucionat l'estil emocional de la música popular al llarg de les últimes dècades.
 
+## Visualització
+La visualització creada està disponible en el següent enllaç:
+[Music Genres: How Music Genres Move Us](https://avilavida.github.io/Visualitzacio-de-dades-PAC4/)
+
 ## Dataset
 
 El dataset s’ha obtingut de [Spotify Tracks Dataset (Kaggle)](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data) i ha estat processat per:
