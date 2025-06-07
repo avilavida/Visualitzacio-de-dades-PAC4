@@ -3,6 +3,7 @@
 **PAC4 - Visualització de Dades**  
 *Universitat Oberta de Catalunya (UOC)*  
 **Títol del projecte:** *Music Genres: How Music Genres Move Us*
+**Autor:** Albert Vila Vidal
 
 ## Objectiu
 
